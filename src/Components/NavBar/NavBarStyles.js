@@ -2,8 +2,13 @@ import styled from "@emotion/styled";
 
 //STYLES
 export const H4 = styled.h4`
-    font-size: 1.5rem
+margin-left: 15px;
+font-size: 1.5rem;
+`;
 
+export const Container = styled.div`
+  display:flex;
+  justify-content: space-evenly;
 `;
 
 export const NavDiv = styled.div`
@@ -11,8 +16,13 @@ export const NavDiv = styled.div`
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    /* border: 1px red solid; */
-    width: 100%;
+    border-radius: 30px;
+    border: solid 3px rgb(148,208,231,0.2);
+    box-shadow: 0 1px 12px rgb(148,208,231,0.2);
+background-color: rgb(24,43,70,0.2);
+    width: 90%;
+    margin-top:15px;
+    
     
 `;
 
@@ -27,12 +37,13 @@ export const Ul = styled.ul`
         align-content: center;
         width: 100%;
         height:100%;
-        background-color: #1b191c;
+        background-color: rgb(16,22,42);
         position: absolute;
         margin: 0;
         top: 0;
         left: ${(props) => props.left};
         transition: 0.3s;
+        z-index: 1;
     }
 `;
 

@@ -1,45 +1,49 @@
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Outfit', sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
 }
 
-body{
-  background: linear-gradient(-45deg,#040C11, #0F1024, #1E3450,#355472);
-  background-size: 400% 400%;
-  animation: gradient-bg 30s ease-in-out infinite;
-color: #FFFFFF;
+body {
+    background: linear-gradient(-45deg, #040c11, #0f1024, #1e3450, #355472);
+    background-size: 400% 400%;
+    animation: gradient-bg 50s ease-in-out infinite;
+    color: #ffffff;
+    backdrop-filter: blur(80px);
 }
 
 @keyframes gradient-bg {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-h1, h4, p, a{
-  color: #FFFFFF;
-  text-decoration: none;
+h1,
+h4,
+p,
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
-ul{
-  list-style-type: none;
+ul {
+    list-style-type: none;
 }
 
-.btn{
-padding:12px 32px;
-border-radius: 4px;
-text-transform: uppercase;
-background: #fff07c ;
-color: #222;
-border: 0;
-cursor: pointer;
-border-radius: 4px;
+.btn {
+    padding: 12px 32px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background: #fff07c;
+    color: #222;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
 }
