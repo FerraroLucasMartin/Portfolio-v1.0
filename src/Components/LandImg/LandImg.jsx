@@ -15,7 +15,7 @@ const LandImg = () => {
             <TextDiv>
                 <H1>👋🏾 WELCOME!</H1>
 
-                <p style={{ fontSize: "1.3rem",marginTop:"50px", marginBottom:"50px" }}>
+                <p style={{ fontSize: "1.3rem",marginTop:"30px", marginBottom:"30px", textAlign:"center"}}>
                 👨‍💻 Im a Jr. Full Stack Developer specialized in the PERN stack,
                     carving my path in the IT industry, always evolving. 
                     <br />
@@ -32,6 +32,7 @@ const LandImg = () => {
                     variant="outlined"
                     aria-label="outlined button group"
                     size="large"
+                    color="primary"
                 >
                     <Button>
                         <a

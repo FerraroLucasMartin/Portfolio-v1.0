@@ -1,10 +1,7 @@
 import styled from "@emotion/styled";
 
 //STYLES
-export const H4 = styled.h4`
-margin-left: 15px;
-font-size: 1.5rem;
-`;
+
 
 export const Container = styled.div`
   display:flex;
@@ -17,13 +14,30 @@ export const NavDiv = styled.div`
     justify-content: space-between;
     padding: 1rem;
     border-radius: 30px;
-    border: solid 3px rgb(148,208,231,0.2);
-    box-shadow: 0 1px 12px rgb(148,208,231,0.2);
+    border: solid 3px #007FFF;
+box-shadow: 0 0px 10px rgb(255,255,255,0.5);
 background-color: rgb(24,43,70,0.2);
     width: 90%;
     margin-top:15px;
     
     
+`;
+
+export const H4 = styled.h4`
+margin-left: 15px;
+font-size: 1.5rem;
+`;
+
+export const LogoImg = styled.img`
+width: 50px;
+transform: rotate(90deg);
+margin-top: -25px;
+margin-Bottom: -25px;
+transition: transform 0.8s ease; 
+
+&:hover{
+    transform: rotate(450deg);
+}
 `;
 
 export const Ul = styled.ul`
@@ -48,7 +62,7 @@ export const Ul = styled.ul`
 `;
 
 export const Li = styled.li`
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     padding: 0 1rem;
     width: auto;

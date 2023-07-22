@@ -1,6 +1,6 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
-import { NavDiv, Ul, Li, H4, Hamburguer, Container } from "./NavBarStyles";
+import { NavDiv, Ul, Li, H4, Hamburguer, Container,LogoImg } from "./NavBarStyles";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 
@@ -15,7 +15,9 @@ export default function NavBar() {
     return (
         <Container>
             <NavDiv>
-                <Link>
+         
+                <Link style={{display:"flex", alignItems:"center"}}>
+                <LogoImg src="../../public/logo.png" alt="" />
                     <H4>Lucas Ferraro.</H4>
                 </Link>
 

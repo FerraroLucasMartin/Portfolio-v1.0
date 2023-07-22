@@ -6,9 +6,9 @@
 }
 
 body {
-    background: linear-gradient(-45deg, #040c11, #0f1024, #1e3450, #355472);
+    background: linear-gradient(-45deg, #0f0e1b, #121e34);
     background-size: 400% 400%;
-    animation: gradient-bg 50s ease-in-out infinite;
+    animation: gradient-bg 12s ease-in-out infinite;
     color: #ffffff;
     backdrop-filter: blur(80px);
 }

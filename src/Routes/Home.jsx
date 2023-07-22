@@ -4,8 +4,7 @@ import LandImg from '../Components/LandImg/LandImg'
 
 const Home = () => {
   return (
-    <div>
-      <NavBar/>
+    <div style={{display:"flex", alignItems:"center", marginTop:"2%"}}>
       <LandImg/>
       </div>
   )
