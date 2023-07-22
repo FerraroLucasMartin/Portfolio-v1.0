@@ -3,6 +3,7 @@ import { useState } from "react";
 import { NavDiv, Ul, Li, H4, Hamburguer, Container,LogoImg } from "./NavBarStyles";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
+import logo from "../../assets/logo.png";
 
 //COMPONENT
 
@@ -17,7 +18,7 @@ export default function NavBar() {
             <NavDiv>
          
                 <Link style={{display:"flex", alignItems:"center"}}>
-                <LogoImg src="../../public/logo.png" alt="" />
+                <LogoImg src={logo} alt="" />
                     <H4>Lucas Ferraro.</H4>
                 </Link>
 
