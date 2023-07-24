@@ -29,7 +29,7 @@ export default function NavBar() {
                     </Li>
                     <Li>
                         {" "}
-                        <Link to="/workInProgress">About</Link>{" "}
+                        <Link to="/about">About</Link>{" "}
                     </Li>
                     <Li>
                         {" "}
