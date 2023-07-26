@@ -31,14 +31,14 @@ export default function NavBar() {
                         {" "}
                         <Link to="/about">About</Link>{" "}
                     </Li>
-                    <Li>
+                    {/* <Li>
                         {" "}
                         <Link to="/workInProgress">Projects</Link>{" "}
                     </Li>
                     <Li>
                         {" "}
                         <Link to="/workInProgress">Contact</Link>{" "}
-                    </Li>
+                    </Li> */}
                 </Ul>
 
                 <Hamburguer onClick={handleClick}>

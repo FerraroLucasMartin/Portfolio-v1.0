@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, TextDiv, IMG } from "../Components/LandImg/LandImgStyles";
-import character from "../assets/character.jpg";
+import character from "../assets/Character.jpg";
 import { ButtonGroup, Button } from "@mui/material";
 
 const About = () => {
