@@ -31,7 +31,7 @@ const LandImg = () => {
                 <ButtonGroup
                     variant="outlined"
                     aria-label="outlined button group"
-                    size="large"
+                    size="medium"
                     color="primary"
                 >
                     <Button>

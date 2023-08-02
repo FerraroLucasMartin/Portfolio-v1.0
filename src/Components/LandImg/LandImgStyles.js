@@ -35,6 +35,12 @@ height: 75vh;
 `;
 
 export const H1 = styled.h1`
-font-size: 3.5rem;
+font-size: 3rem;
 margin-left: -40px;
 `;
+
+export const P = styled.p`
+border-right: .15em solid orange;
+letter-spacing: .15em;
+
+`
