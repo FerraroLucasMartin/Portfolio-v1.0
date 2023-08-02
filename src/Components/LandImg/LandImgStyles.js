@@ -35,7 +35,7 @@ height: 75vh;
 `;
 
 export const H1 = styled.h1`
-font-size: 3rem;
+font-size: 2.5rem;
 margin-left: -40px;
 `;
 

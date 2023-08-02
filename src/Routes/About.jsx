@@ -119,7 +119,7 @@ const About = () => {
     return (
         <Container style={{ marginTop: "30px" }}>
             <IMG src={character} alt="" />
-            <TextDiv style={{padding:"50px", fontSize:"1.3rem", letterSpacing:".1em",justifyContent:"space-between"}}>
+            <TextDiv style={{padding:"50px", fontSize:"1.1rem", letterSpacing:".1em",justifyContent:"space-between"}}>
                 <div style={{height:"80%",textAlign:"center"}}>{paragraphs[currentP]}</div>
 
                 <ButtonGroup style={{ marginTop: "30px" }}>

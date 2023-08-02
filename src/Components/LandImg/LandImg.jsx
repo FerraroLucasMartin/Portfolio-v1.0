@@ -15,7 +15,7 @@ const LandImg = () => {
             <TextDiv>
                 <H1>👋🏾 WELCOME!</H1>
 
-                <p style={{ fontSize: "1.3rem",marginTop:"30px", marginBottom:"30px", textAlign:"center"}}>
+                <p style={{ fontSize: "1.1rem",marginTop:"30px", marginBottom:"30px", textAlign:"center"}}>
                 👨‍💻 Im a Jr. Full Stack Developer specialized in the PERN stack,
                     carving my path in the IT industry, always evolving. 
                     <br />
