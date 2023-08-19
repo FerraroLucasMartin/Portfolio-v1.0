@@ -6,9 +6,11 @@ import styled from "@emotion/styled";
 export const Container = styled.div`
   display:flex;
   justify-content: space-evenly;
+  align-items: center;
   position: sticky;
-  top:0;
+ top:0;
   z-index: 1;
+  /* border:solid green 5px; */
 `;
 
 export const NavDiv = styled.div`

@@ -5,8 +5,10 @@ display:flex;
 justify-content: space-evenly;
 align-items: center;
 padding: 15px;
-width: 98%;;
-
+width: 98%;
+height: 80%;
+/* border:solid red 5px; */
+margin-bottom: 100px;
 `;
 
 export const TextDiv = styled.div`

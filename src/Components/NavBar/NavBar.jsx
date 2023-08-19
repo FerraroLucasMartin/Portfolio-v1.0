@@ -25,10 +25,10 @@ export default function NavBar() {
 
                 <Ul left={click ? "0%" : "-100%"}>
                     <Li>
-                        <Link to="home" spy={true} smooth={true} offset={50} duration={500}>Home</Link>
+                        <Link to="home" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
                     </Li>
                     <Li>
-                        <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link>
+                        <Link to="about" spy={true} smooth={true} offset={-40} duration={500}>About</Link>
                     </Li>
                     {/* <Li>
                  {" "}
