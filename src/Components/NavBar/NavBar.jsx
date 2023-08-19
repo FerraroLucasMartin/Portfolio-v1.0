@@ -1,9 +1,10 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
-import { NavDiv, Ul, Li, H4, Hamburguer, Container,LogoImg } from "./NavBarStyles";
-import { Link } from "react-router-dom";
+import { NavDiv, Ul, Li, H4, Hamburguer, Container, LogoImg } from "./NavBarStyles";
+// import {Link}  from "react-router-dom";
 import Button from "@mui/material/Button";
 import logo from "../../assets/logo.png";
+import { Link } from "react-scroll"
 
 //COMPONENT
 
@@ -16,29 +17,27 @@ export default function NavBar() {
     return (
         <Container>
             <NavDiv>
-         
-                <Link style={{display:"flex", alignItems:"center"}}>
-                <LogoImg src={logo} alt="" />
+
+                <Link style={{ display: "flex", alignItems: "center" }} to="test1" spy={true} smooth={true} offset={50} duration={500}>
+                    <LogoImg src={logo} alt="" />
                     <H4>Lucas Ferraro.</H4>
                 </Link>
 
                 <Ul left={click ? "0%" : "-100%"}>
                     <Li>
-                        {" "}
-                        <Link to="/">Home</Link>{" "}
+                        <Link to="home" spy={true} smooth={true} offset={50} duration={500}>Home</Link>
                     </Li>
                     <Li>
-                        {" "}
-                        <Link to="/about">About</Link>{" "}
+                        <Link to="about" spy={true} smooth={true} offset={50} duration={500}>About</Link>
                     </Li>
                     {/* <Li>
-                        {" "}
-                        <Link to="/workInProgress">Projects</Link>{" "}
-                    </Li>
-                    <Li>
-                        {" "}
-                        <Link to="/workInProgress">Contact</Link>{" "}
-                    </Li> */}
+                 {" "}
+                 <Link to="/workInProgress">Projects</Link>{" "}
+             </Li>
+             <Li>
+                 {" "}
+                 <Link to="/workInProgress">Contact</Link>{" "}
+             </Li> */}
                 </Ul>
 
                 <Hamburguer onClick={handleClick}>
@@ -49,6 +48,8 @@ export default function NavBar() {
                     )}
                 </Hamburguer>
             </NavDiv>
+
+
         </Container>
     );
 }

@@ -6,6 +6,9 @@ import styled from "@emotion/styled";
 export const Container = styled.div`
   display:flex;
   justify-content: space-evenly;
+  position: sticky;
+  top:0;
+  z-index: 1;
 `;
 
 export const NavDiv = styled.div`
@@ -16,11 +19,10 @@ export const NavDiv = styled.div`
     border-radius: 30px;
     border: solid 3px #0080ff50;
     box-shadow: 3px 3px 7px 3px #00000050;
-background-color: rgb(24,43,70,0.2);
+background-color: rgb(24,43,70,0.6);
     width: 90%;
     margin-top:15px;
-    
-    
+    backdrop-filter: blur(10px);
 `;
 
 export const H4 = styled.h4`
@@ -57,7 +59,6 @@ export const Ul = styled.ul`
         top: 0;
         left: ${(props) => props.left};
         transition: 0.3s;
-        z-index: 1;
     }
 `;
 
