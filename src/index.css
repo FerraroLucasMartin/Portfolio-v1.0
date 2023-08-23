@@ -6,11 +6,14 @@
 }
 
 body {
-    background: linear-gradient(-45deg, #0f0e1b, #121e34);
-    background-size: 400% 400%;
-    animation: gradient-bg 12s ease-in-out infinite;
+    box-shadow: 0 0 1px 1000px rgba(0, 17, 26, 0.75) inset;
+    background-image: url("./assets/bricks.jpg");
+    /* background: linear-gradient(-45deg, #0f0e1b, #121e34); */
+    background-size:contain;
+    /* animation: gradient-bg 12s ease-in-out infinite; */
     color: #ffffff;
-    backdrop-filter: blur(80px);
+    /* backdrop-filter: grayscale(100%) contrast(200%) opacity(70%); */
+      background-color: rgba(0, 0, 0, 0.5);
 }
 
 @keyframes gradient-bg {

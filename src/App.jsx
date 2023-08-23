@@ -4,6 +4,7 @@ import About from "./Views/About.jsx";
 import Contact from "./Views/Contact.jsx";
 import Projects from "./Views/Projects.jsx";
 import { Route, Routes } from "react-router-dom";
+import Skills from "./Views/Skills/Skills.jsx";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             </Routes> */}
                 <Home name="home"/>
                  <About name="about" />
+                 <Skills/>
         </>
     );
 }

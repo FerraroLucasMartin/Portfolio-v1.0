@@ -19,7 +19,7 @@ export default function NavBar() {
             <NavDiv>
 
                 <Link style={{ display: "flex", alignItems: "center" }} to="test1" spy={true} smooth={true} offset={50} duration={500}>
-                    <LogoImg src={logo} alt="" />
+                    {/* <LogoImg src={logo} alt="" /> */}
                     <H4>Lucas Ferraro.</H4>
                 </Link>
 

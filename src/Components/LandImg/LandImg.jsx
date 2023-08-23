@@ -13,10 +13,10 @@ const LandImg = () => {
             <IMG src={introImg} alt={"introImg"} />
 
             <TextDiv>
-                <H1>👋🏾 WELCOME!</H1>
+                <H1>Welcome!</H1>
 
                 <p style={{ fontSize: "1.1rem",marginTop:"30px", marginBottom:"30px", textAlign:"center"}}>
-                👨‍💻 Im a Jr. Full Stack Developer specialized in the PERN stack,
+                    Im a Jr. Full Stack Developer specialized in the PERN stack,
                     carving my path in the IT industry, always evolving. 
                     <br />
                     <br />

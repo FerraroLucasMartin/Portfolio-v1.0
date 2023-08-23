@@ -19,9 +19,9 @@ export const NavDiv = styled.div`
     justify-content: space-between;
     padding: 1rem;
     border-radius: 30px;
-    border: solid 3px #0080ff50;
+    border: solid 3px rgba(255, 255, 255, 0.01);
     box-shadow: 3px 3px 7px 3px #00000050;
-background-color: rgb(24,43,70,0.6);
+/* background-color: rgb(24,43,70,0.6); */
     width: 90%;
     margin-top:15px;
     backdrop-filter: blur(10px);
