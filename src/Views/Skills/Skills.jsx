@@ -7,7 +7,7 @@ import { frontSkills, backSkills, otherSkills } from '../../utils/SkillsData'
 const Skills = () => {
 
   return (
-    <Wrapper>
+    <Wrapper id="skills">
 
       <H1>Tech Skills</H1>
 

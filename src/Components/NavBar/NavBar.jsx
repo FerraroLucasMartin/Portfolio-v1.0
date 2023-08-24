@@ -30,14 +30,9 @@ export default function NavBar() {
                     <Li>
                         <Link to="about" spy={true} smooth={true} offset={-40} duration={500}>About</Link>
                     </Li>
-                    {/* <Li>
-                 {" "}
-                 <Link to="/workInProgress">Projects</Link>{" "}
-             </Li>
-             <Li>
-                 {" "}
-                 <Link to="/workInProgress">Contact</Link>{" "}
-             </Li> */}
+                    <Li>
+                        <Link to="skills" smooth={true} offset={-100} duration={500}>Skills</Link>
+                    </Li>
                 </Ul>
 
                 <Hamburguer onClick={handleClick}>

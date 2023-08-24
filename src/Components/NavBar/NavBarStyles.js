@@ -48,6 +48,7 @@ export const Ul = styled.ul`
     display: flex;
     justify-content: space-between;
     gap: 15px;
+    cursor: pointer;
 
     @media screen and (max-width: 1040px) {
         flex-direction: column;
@@ -79,12 +80,14 @@ export const Li = styled.li`
         margin-left: 10px;
         font-size: 1.5rem;
         transition: 0.3s ease-in-out;
+        cursor: pointer;
     }
     }
     
     &:hover{
         font-size: 1.3rem;
         transition: 0.1s ease-in-out;
+        cursor: pointer;
     }
 `;
 

@@ -10,15 +10,9 @@ function App() {
     return (
         <>
                <NavBar />
-            {/* <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/contact" element={<Contact />} />
-            </Routes> */}
                 <Home name="home"/>
                  <About name="about" />
-                 <Skills/>
+                 <Skills name="skills"/>
         </>
     );
 }
