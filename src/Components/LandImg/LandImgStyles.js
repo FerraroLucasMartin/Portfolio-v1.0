@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import {keyframes } from '@emotion/react'
+import { keyframes } from '@emotion/react'
 
 export const Container = styled.div`
 display:flex;
@@ -17,8 +17,7 @@ display:flex;
 flex-direction: column;
 border: solid 3px #007FFF;
 box-shadow:0 0px 10px rgb(255,255,255,0.4), 0 0px 10px rgb(255,255,255,0.4) inset,0 1px 20px rgb(0,127,255,0.7), 0 1px 20px rgb(0,127,255,0.7) inset,0 0px 25px rgb(0,100,255,0.2), 0 0px 25px rgb(0,100,255,0.2) inset;
-
-background-color: rgb(24,43,70,0.2);
+/* background-color: rgb(255, 255, 255,0.03); */
 backdrop-filter: blur(3px);
 padding: 7%;
 height: 70vh;
@@ -37,7 +36,7 @@ border-radius: 50px;
 height: 75vh;
 `;
 
-const pulsate= keyframes` 
+const pulsate = keyframes` 
   100% {
     /* Larger blur radius */
     text-shadow:
